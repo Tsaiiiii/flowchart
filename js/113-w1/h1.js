@@ -1,5 +1,5 @@
 var title = "練習輸出";
-var question = "請試著輸出Hello world!\n";
+var question = "請試著輸出Hello!\n";
 var array = [
     /*["夜市牛排", "200"],
     ["藥燉排骨", "120"],
@@ -11,7 +11,7 @@ var array = [
 var test_case = [
     {
         input: "",
-        output: "Hello world!",
+        output: "Hello!",
         note: ""
     }
 ]
