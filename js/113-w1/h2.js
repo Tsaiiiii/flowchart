@@ -1,5 +1,5 @@
-var title = "練習輸出2";
-var question = "請試著輸出561+360*45的計算結果。\n";
+var title = "四則運算";
+var question = "請試著輸出2*3+4*5\n";
 var array = [
     /*["夜市牛排", "200"],
     ["藥燉排骨", "120"],
@@ -11,8 +11,8 @@ var array = [
 var test_case = [
     {
         input: "",
-        output: "",
-        note: "輸出561+360*45的計算結果"
+        output: "26",
+        note: ""
     }
 ]
 
