@@ -1,5 +1,5 @@
 var title = "重複幾次";
-var question = "請試著使用「迴圈」來輸出五個Hello!\n";
+var question = "請試著使用「迴圈」來輸出五次Hello {name}!\n";
 var array = [
     /*["夜市牛排", "200"],
     ["藥燉排骨", "120"],
@@ -11,7 +11,7 @@ var array = [
 var test_case = [
     {
         input: "",
-        output: "Hello!\nHello!\nHello!\nHello!\nHello!",
+        output: "Hello Sinyi!\nHello Sinyi!\nHello Sinyi!\nHello Sinyi!\nHello Sinyi!",
         note: ""
     }
 ]
