@@ -2098,7 +2098,7 @@ var mouse={
             hint_yes.addEventListener("click", function(){
 				let text;
 				let node_var;
-				switch (my_mouse.selected_img){
+                switch(model.nodes[mouse.selNode].figure){
 					case('Circle'):
 						text = $("input[name='radio']:checked").val();
 						model.nodes[mouse.selNode].text = text; 
