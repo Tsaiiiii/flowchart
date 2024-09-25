@@ -141,8 +141,13 @@ function to_code(node){
             };
         }
         else{
+            var code = "output_result += (";
+            for(let i=1;i<str.split(" ").length;i++){
+                code += (str.split(" ")[i] + " ");
+            }
+            code += "+\"\\n\");\n";
             return {
-                "code":"output_result += ("+str.split(" ")[1]+"+\"\\n\");\n"+"total_step ++;\nUpdate_output("+model.nodes.indexOf(node)+", "+var_str+");\n",
+                "code":code+"total_step ++;\nUpdate_output("+model.nodes.indexOf(node)+", "+var_str+");\n",
                 "next":model.nodes[model.links.find(element => element && element.from==model.nodes.indexOf(node)).to]
             };
         }
