@@ -1,4 +1,4 @@
-var title = "重複幾次";
+var title = "輸入與變數";
 var question = "請試著跟不同人打招呼！\n";
 var array = [
     /*["夜市牛排", "200"],
