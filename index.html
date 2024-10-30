@@ -938,7 +938,18 @@
             window.LoopTrap = 1000;
             let wt = Number($("input[name='which_testdata']:checked").val());
             // console.log("wt="+wt)
-            var input_str = "["+testdata_json_list[wt].input.replace(/[\n\s,]+/g, ',')+"]";
+            let input_list = testdata_json_list[wt].input.split(/[\n\s,]+/g);
+            console.log(input_list);
+            var input_str = "[";
+            for(let i=0;i<input_list.length;i++){
+                if((!isNaN(parseFloat(input_list[i])) && isFinite(input_list[i]))){
+                    input_str += input_list[i] + ',';
+                }
+                else{
+                    input_str += '"' + input_list[i] + '"' + ',';
+                }
+            }
+            input_str += "]";
 			// 要做非數字的字串處理
 
             var code="";
