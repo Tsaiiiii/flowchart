@@ -11,7 +11,7 @@ var array = [
 var test_case = [
     {
         input: "Sinyi 90",
-        output: "Hello Sinyi\n90",
+        output: "Hello Sinyi\n95",
         note: ""
     }
 ]
