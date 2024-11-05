@@ -1,5 +1,5 @@
 var title = "輸入與變數";
-var question = "請試著輸出同學們的姓名與成績\n";
+var question = "期末到了，資訊老師請你幫忙紀錄同學的成績，因為同學們的表現都很好，老師給每位同學都加五分。\n當同學詢問成績時，他/她會給你自己的名字與原始成績，請你先跟同學說Hello後，再把他的新成績給他。\n";
 var array = [
     /*["夜市牛排", "200"],
     ["藥燉排骨", "120"],
@@ -11,7 +11,7 @@ var array = [
 var test_case = [
     {
         input: "Sinyi 90",
-        output: "Sinyi 90",
+        output: "Hello Sinyi\n90",
         note: ""
     }
 ]
